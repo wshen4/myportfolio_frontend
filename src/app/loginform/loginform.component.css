@@ -1,0 +1,33 @@
+.dropdown-hide {
+  display: none;
+}
+
+.dropdown {
+  padding: 20px;
+  height: 180px;
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  background-color: white;
+  border: solid 1px lightgrey;
+  border-radius: 2%;
+  margin-top: 1px;
+  box-shadow: 2px 2px 5px grey;
+  opacity: 0.8;
+}
+
+.buttonholder {
+  position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+  .dropdown {
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown {
+    right: 10px;
+  }
+}

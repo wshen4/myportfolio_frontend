@@ -1,0 +1,63 @@
+div.navbar {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  z-index: 1;
+}
+
+.navicon {
+  margin-left: 100px;
+  user-select: none;
+}
+
+.navicon:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.bralert {
+  display: none;
+}
+
+.loginbtn {
+  float: right;
+  margin-right: 100px;
+}
+
+.navtitle-abbr {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .navicon {
+    margin-left: 20px;
+  }
+
+  .bralert {
+    display: block;
+  }
+
+  .loginbtn {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navicon {
+    margin-left: 10px;
+  }
+  .navtitle {
+    display: none;
+  }
+  .bralert {
+    display: block;
+  }
+
+  .loginbtn {
+    margin-right: 10px;
+  }
+
+  .navtitle-abbr {
+    display: inline;
+  }
+}

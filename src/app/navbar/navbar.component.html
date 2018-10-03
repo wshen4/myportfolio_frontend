@@ -1,0 +1,20 @@
+<!-- Alert Information -->
+<div *ngIf='showDemoAlert === true' class="alert alert-success navalert" role="alert" style='margin: 0px; text-align: center;'>
+  <fa-icon [icon]="faExclamationTriangle"></fa-icon>
+  This webapp is my sample work, please do not use this for your business.
+  <br class='bralert' />
+  <button class="btn btn-outline-dark" style='margin-left: 10px' (click)='onCloseDemoAlert()'>
+    <fa-icon [icon]="faTimesCircle"></fa-icon>
+    I got it
+  </button>
+</div>
+
+<!-- Navbar -->
+<div class="navbar navbar-light shadow-sm">
+  <span class="navbar-brand mb-0 h1 navicon">
+    <fa-icon class='navimg' [icon]="faPiggyBank" style='padding-right: 10px;'></fa-icon>
+    <span class="navtitle" style="font-weight: bold;">My Portfolio</span>
+    <span class="navtitle-abbr" style="font-weight: bold;">MP</span>
+  </span>
+  <app-loginform class="loginbtn"></app-loginform>
+</div>
